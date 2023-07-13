@@ -1,0 +1,9 @@
+auth:
+  url:
+    path: /api-auth/auth/login
+authorization:
+  header:
+    name: Authorization
+    prefix: Bearer
+  secret:
+    token: ''
