@@ -1,9 +1,6 @@
 auth:
-  url:
-    path: /api-auth/auth/login
-auth:
-  header:
-    name: Authorization
-    prefix: Bearer
+  token:
+  expiration:
+    time: 90000
   secret:
     token: '{cipher}c9e69d53cd9fed82c4705c68f0038651d1dddb84da9f2180dbcf64a4e79128a4c3bdc791cd16b57fde7bc7281ee7f4362a14a69ede448c4b6f38be7ceb9245e1'
