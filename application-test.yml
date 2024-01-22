@@ -3,6 +3,6 @@ spring:
     continue-on-error: true
     driverClassName: org.postgresql.Driver
     initialization-mode: always
-    url: jdbc:postgresql://localhost:5432/TaskManager?ApplicationName=${spring.application.name}
+    url: jdbc:postgresql://localhost:5432/postgres?ApplicationName=${spring.application.name}
     username: postgres
     password: 1234
