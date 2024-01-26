@@ -6,4 +6,4 @@ auth:
     name: Authorization
     prefix: Bearer
   secret:
-    token: '{cipher}c9e69d53cd9fed82c4705c68f0038651d1dddb84da9f2180dbcf64a4e79128a4c3bdc791cd16b57fde7bc7281ee7f4362a14a69ede448c4b6f38be7ceb9245e1'
+    token: '{cipher}e1b9b77cb0f28c07586997d695e37f48b90856d1830ddd83a1c77de174b6aca7ea1074e091a77d2d5b8517d8d76160d0'
