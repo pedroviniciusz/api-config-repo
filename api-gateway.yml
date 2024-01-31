@@ -1,7 +1,6 @@
 auth:
   url:
     path: /api-auth/auth/login
-auth:
   header:
     name: Authorization
     prefix: Bearer
