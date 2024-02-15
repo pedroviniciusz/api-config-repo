@@ -21,3 +21,5 @@ management:
 logging:
   file:
     name: ${java.io.tmpdir}/${spring.application.name}.log
+  level:
+    root: error
