@@ -6,3 +6,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres?ApplicationName=${spring.application.name}
     username: postgres
     password: 1234
+    
+server:
+  error:
+    include-stacktrace: always
+
+    
+logging:
+  level:
+    root: trace

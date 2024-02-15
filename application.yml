@@ -6,11 +6,18 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
-  server:
-    peer-node-read-timeout-ms: 5000
+      
+server:
+  peer-node-read-timeout-ms: '5000'
+  error:
+    include-message: always
 
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+        
+logging:
+  file:
+    name: ${java.io.tmpdir}/${spring.application.name}.log
