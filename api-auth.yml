@@ -1,6 +1,4 @@
 auth:
-  url:
-    path: /auth/login  
   token:
   expiration:
     time: 10800000

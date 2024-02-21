@@ -1,8 +1,3 @@
 auth:
-  url:
-    path: /api-auth/auth/login
-  header:
-    name: Authorization
-    prefix: Bearer
   secret:
     token: '{cipher}7a3c22755f699d868f842bc79e692987dc3c7972a8acf0e6857627868886050789f2428ad0ac461894c7a6ca61636389cefd983cff0f3590a5ab581ccf9c87b8be5cb352ddd49da0c4b306f719a6c8be33013d44d3272cde8e0ff2bec79862e68ac80769a5f0223307557ca8fd7a450eb400aa0a809793070e619c281e45db1f'
