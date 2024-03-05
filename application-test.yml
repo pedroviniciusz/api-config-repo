@@ -14,4 +14,4 @@ server:
     
 logging:
   level:
-    root: trace
+    root: info
