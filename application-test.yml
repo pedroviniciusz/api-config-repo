@@ -12,6 +12,6 @@ server:
     include-stacktrace: always
 
     
-logging:
-  level:
-    root: info
+#logging:
+#  level:
+#    root: info
