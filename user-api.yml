@@ -1,0 +1,7 @@
+rabbit:
+  queue:
+    name: email-sender
+  exchange:
+    name: email-sender-exchange
+  routing:
+    key: email-sender-routing-key
