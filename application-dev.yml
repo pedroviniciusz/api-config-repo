@@ -12,7 +12,9 @@ spring:
 server:
   error:
     include-stacktrace: always
-    
-#logging:
-#  level:
-#    root: info
+
+logging:
+  file:
+    name: ${java.io.tmpdir}/logs/${spring.application.name}.log
+  level:
+    root: debug
