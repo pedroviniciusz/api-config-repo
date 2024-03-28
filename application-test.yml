@@ -6,6 +6,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres?ApplicationName=${spring.application.name}
     username: postgres
     password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
     
 server:
   error:
